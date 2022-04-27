@@ -56,6 +56,7 @@ The web based visualization application was developed using Dash by Plotly in Py
 In this section we will discuss technical design and implementation of App and data flow from different layers. User provides input through the control panel in the App. Input keywords are then sent as a request to the data file where keywords are searched based on business logics. Once it finds the matching records are sent back as a response and then it is displayed as a scatter plot char on the User interface.
 
 
-![alt text](DesktopApp.png)
+
+![Alt Text](DesktopApp.png)
 
 
