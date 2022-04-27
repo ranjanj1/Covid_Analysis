@@ -20,10 +20,7 @@ Symptom Tracking panel – This is the output panel where user see a scatter plo
  
  
  
-Fig 2
- 
 
-Fig 3
  
 Link Panel – To make links easily accessible to the user, we designed a Link panel where all the links in the posted based on the input range selected by user appears. User can visit the link in a different tab while keeping the current state of the chart.
  
@@ -37,20 +34,14 @@ Like ‘symptom Tracking’ tab we also divided News tracking tab in 3 sections 
  
  
  
- 
-Fig 4
- 
+
  
 Control Panel – Similar to control panel in symptom tracking tab this also has five components. Two dropdowns to select most common and least common keywords. ‘Date range’, ‘Submit’ and ‘Reset’ button works as they do in other control panel.
  
 News Tracking panel – This is the output panel where user see a scatter plot with date represented at x-axis and time represented as y-axis. Every dot in scatter plot represents a tweet and hovering over the dot show the content of news as shown in fig 5. In addition, clicking on any dot with a link open a window which gives user an option to visit the link as shown in fig 6.
  
  
- 
-Fig 5
- 
- 
-Fig 6
+
  
  
 Link Panel – While reading the news most of the user prefer to read from different news source.  To make that easily accessible to the user, we designed a Link panel where all the links are displayed which are retrieved from data set based input provided by user. User can visit the link in a different tab while keeping the current state of the chart and come back to main tab to access the other link.
@@ -64,5 +55,7 @@ The web based visualization application was developed using Dash by Plotly in Py
 
 In this section we will discuss technical design and implementation of App and data flow from different layers. User provides input through the control panel in the App. Input keywords are then sent as a request to the data file where keywords are searched based on business logics. Once it finds the matching records are sent back as a response and then it is displayed as a scatter plot char on the User interface.
 
+
+![alt text](DesktopApp.png)
 
 
